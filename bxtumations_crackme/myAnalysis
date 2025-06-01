@@ -1,0 +1,9 @@
+rdx "553"
+rax "sad"
+
+rax=rcx
+
+Rebased Program to Memory Map (.text entry point) 0x400000
+Looking for "wrong key" and revers engineered to the real check.
+Grabbed that location threw it in x64dbg with breakpoint and stepped through the comparison to see "sadasf" compared to "553".
+Tryed "553" and it was the correct key :) 
